@@ -91,3 +91,22 @@ footer{
     text-align:left;
     color:#2493d4;
 }
+@media (max-width: 824px) {
+    header nav li {
+      margin: 0 10px;
+    }
+  
+    .gallery ul {
+      grid-template-columns: 100%;
+    }
+  
+    .gallery ul li {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+  
+    .item {
+      max-width: 100%;
+      float: none;
+    }
+  }
